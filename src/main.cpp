@@ -12,7 +12,7 @@ int main(int argc, char** argv) {
   char *line = NULL;
   size_t len = 0;
   ssize_t read;
-  int count = 0;
+  int count = 0, sum = 0;
 
   fp = fopen(argv[1], "r");
   if (!fp)
@@ -27,5 +27,10 @@ int main(int argc, char** argv) {
   if (line)
     free(line);
 
-  std::cout << "Addition Result:" << add_obj.add(op[0],op[1]) << std::endl;
+  sum = add_obj.add(op[0],op[1]);
+
+  if (sum == -1)
+    abort();
+
+  std::cout << "Addition Result:" << sum << std::endl;
 }
