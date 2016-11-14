@@ -1,0 +1,13 @@
+{
+    "shrink-percent": 90.9090909090909, 
+    "dice-linecount": 1, 
+    "slice-linecount": 11, 
+    "diff-node-spec": [
+        {
+            "count": 1, 
+            "line": "/home/bhargava/work/gitlab/orthrus/testdata/Automake-Autoconf-Template-Project/src/main.cpp:main:37:5"
+        }
+    ], 
+    "crashing-input": "ASAN:SESSION000:id:000000,sig:06,src:000000,op:havoc,rep:2", 
+    "parent-input": "id:000000,orig:dummy_seed0"
+}

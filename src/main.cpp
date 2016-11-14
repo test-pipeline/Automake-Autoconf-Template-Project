@@ -5,6 +5,10 @@
 #include <stdio.h>
 #include <unistd.h>
 
+void bug() {
+  abort();
+}
+
 int main(int argc, char** argv) {
   MyAdd add_obj;
   long op[2] = {0, 0};
@@ -30,7 +34,7 @@ int main(int argc, char** argv) {
   sum = add_obj.add(op[0],op[1]);
 
   if (sum == -1)
-    abort();
+    bug();
 
   std::cout << "Addition Result:" << sum << std::endl;
 }
