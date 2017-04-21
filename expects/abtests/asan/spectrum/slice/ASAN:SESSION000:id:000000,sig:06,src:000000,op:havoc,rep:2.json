@@ -1,0 +1,46 @@
+{
+    "crashing-input": "ASAN:SESSION000:id:000000,sig:06,src:000000,op:havoc,rep:2", 
+    "slice-linecount": 10, 
+    "slice-node-spec": [
+        {
+            "count": 1, 
+            "line": "/home/bhargava/work/gitlab/orthrus/testdata/Automake-Autoconf-Template-Project/src/main.cpp:main:12:0"
+        }, 
+        {
+            "count": 1, 
+            "line": "/home/bhargava/work/gitlab/orthrus/testdata/Automake-Autoconf-Template-Project/src/main.cpp:main:34:21"
+        }, 
+        {
+            "count": 1, 
+            "line": "/home/bhargava/work/gitlab/orthrus/testdata/Automake-Autoconf-Template-Project/src/main.cpp:main:25:39"
+        }, 
+        {
+            "count": 1, 
+            "line": "/home/bhargava/work/gitlab/orthrus/testdata/Automake-Autoconf-Template-Project/src/main.cpp:main:26:10"
+        }, 
+        {
+            "count": 1, 
+            "line": "/home/bhargava/work/gitlab/orthrus/testdata/Automake-Autoconf-Template-Project/src/main.cpp:main:32:10"
+        }, 
+        {
+            "count": 1, 
+            "line": "/home/bhargava/work/gitlab/orthrus/testdata/Automake-Autoconf-Template-Project/src/main.cpp:main:25:3"
+        }, 
+        {
+            "count": 1, 
+            "line": "/home/bhargava/work/gitlab/orthrus/testdata/Automake-Autoconf-Template-Project/src/main.cpp:main:37:5"
+        }, 
+        {
+            "count": 1, 
+            "line": "/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0/iostream:__cxx_global_var_init:74:0"
+        }, 
+        {
+            "count": 1, 
+            "line": "/home/bhargava/work/gitlab/orthrus/testdata/Automake-Autoconf-Template-Project/src/main.cpp:main:30:10"
+        }, 
+        {
+            "count": 1, 
+            "line": "/home/bhargava/work/gitlab/orthrus/testdata/Automake-Autoconf-Template-Project/src/main.cpp:main:25:53"
+        }
+    ]
+}
